@@ -7,7 +7,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import loding from './loding';
+import Loding from './loding';
 
 
 const bull = (
@@ -58,7 +58,7 @@ const styles2={
       <CardActions>
         <Button size="small">Learn More</Button>
       </CardActions>
-    </Card>):<loding/>}
+    </Card>):<Loding/>}
    </div>
   );
 }
